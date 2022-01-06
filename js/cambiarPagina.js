@@ -1,3 +1,3 @@
 function redireccionar() {
-    setTimeout("location.href='http://127.0.0.1:5500/'", 2000);
+    setTimeout("location.href='https://eloy1320.github.io/Portafolio-Web-EloyDiaz/'", 2000);
   }
