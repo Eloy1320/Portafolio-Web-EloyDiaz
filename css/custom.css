@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.icon-color{
+    background: url(../img/list.svg)
+}
+
+.nav-titulo::before{
+    content: "<";
+    color: #0bbbed;
+
+}
+
+.nav-titulo{
+    color: #ffffff;
+}
+
+.nav-titulo::after{
+    content: "/>";
+    color: #0bbbed;
+
+}
+
+.my-navbar{
+    border: 0;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.my-navbar .navbar-nav li a{
+    color: white;
+}
+
+.my-navbar .navbar-nav li a:hover{
+    color: rgb(143, 143, 143);
+}
+
+section[id]{
+ scroll-margin-top: 70px;  
+}
+
+.section-fondo1 {
+    padding: 100px 0;
+    background: white;
+}
+
+.section-fondo2 {
+    padding: 100px 0;
+    background: rgb(240, 240, 240);
+}
+
+.foto-perfil{
+    height: 35vh;
+    margin-right: 40px;
+    margin-top: 40px;
+    transition: filter  3s;
+}
+
+.inicio {
+    min-height: 100vh;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.inicio-fondo {
+
+    background-color: black;
+    background-image: url("../img/fondo-codigo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.inicio-titulo-nombre {
+    font-size: 6.5vh;
+    text-shadow: 2px 2px black;
+    color: #0bbbed;
+
+}
+
+.inicio-titulo {
+    font-size: 5vh;
+    color: #f5f5f5;
+    text-shadow: 2px 2px black;
+
+}
+
+.descripcion{
+    text-align: center;
+}
+
+.icono-github::after{
+    
+    content: url(../img/logos/github.svg);
+}
+
+.icono-tierra::after{
+    
+    content: url(../img/logos/tierra.svg);
+}
+
+footer {
+    font-size: xx-small;
+    color: white;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
