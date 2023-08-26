@@ -291,7 +291,7 @@
 
   <footer>
     <div class="footer-copyright text-center py-3">
-      <p>© 2022 Copyright:
+      <p>© <span id="year"></span> Copyright:
         <a href="#inicio"> Eloy Díaz Del Castillo</a></p>
       <p>All Rights Reserved</p>
     </div>
@@ -302,6 +302,11 @@
   <script src="js/animacion.js"></script>
   <script src="js/navBar.js"></script>
 
+  <script>
+    var yearSpan = document.getElementById("year");
+    var currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+  </script>
 
 </body>
 
